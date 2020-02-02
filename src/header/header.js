@@ -30,7 +30,7 @@ function Header(props) {
                     </Dropdown>
                     </Nav.Link>
                     <Nav.Link href="/add"><Button variant={"success"}>+ New Ad</Button></Nav.Link>
-                    <Nav.Link href="/login">Login</Nav.Link>
+                     
 
                     {/*<a href="/login/home"><div>open me</div></a>*/}
                 </Nav>
