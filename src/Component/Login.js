@@ -32,7 +32,7 @@ class Login extends Component {
     submit()
     {
 
-    Axios.get("http://192.168.29.61:9000").then(response =>{
+    Axios.get("http://yourip:9000").then(response =>{
         this.setState({
             username:response.data,
             logged:true
