@@ -12,7 +12,7 @@ class Home extends Component {
     }
        componentDidMount=()=>
         {
-            Axios.get("http://192.168.29.61:9000/home").then(response =>{
+            Axios.get("http://your ip:9000/home").then(response =>{
                 console.log(response.data);
                 this.setState({items:response.data})
             }).catch();
@@ -20,7 +20,7 @@ class Home extends Component {
         }
         myfunc=()=>
         {
-            Axios.get("http://192.168.29.61:9000/home").then(response =>{
+            Axios.get("http://your ip:9000/home").then(response =>{
                 console.log(response.data);
                 this.setState({items:response.data})
             }).catch();
